@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hola-mundo-deployment
+  name: hola mundo Washington Loza
 spec:
   replicas: 3  # Número de réplicas (cambia según tus necesidades)
   selector:
     matchLabels:
-      app: hola-mundo
+      app: hola mundo Washington Loza
   template:
     metadata:
       labels:
-        app: hola-mundo
+        app: hola mundo Washington Loza
     spec:
       containers:
-      - name: hola-mundo-container
-        image: carloandrepb/docker01-andres-pillajo:latest  # Reemplaza con tu imagen
+      - name: hola mundo Washington Loza
+        image: weloza/tarea4:latest  # Reemplaza con tu imagen
         ports:
         - containerPort: 5000  # Puerto expuesto dentro del contenedor
 
